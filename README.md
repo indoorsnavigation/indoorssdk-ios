@@ -33,6 +33,7 @@ To integrate IndoorsSDK into your Xcode project using Swift Package Manager, add
 * Set ```CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES``` to ```YES``` in your ```Project->Build Settings-Apple CLang - Language - Modules->Allow Non-modular Includes in Framework Modules```
 * Set ```OTHER_SWIFT_FLAGS``` to ```-Xcc -Wno-error=non-modular-include-in-framework-module``` in your ```Project->Build Settings-Swift Compiler - Custom Flags``` (For Swift projects only)
 * Add ```MGLMapboxMetricsEnabledSettingShownInApp``` key and set its value to ```YES``` in your ```info.plist```
+* Make sure your ```Runpath Search Paths``` in ```Project->Build Settings->Linking->Runpath Search Paths``` contains these paths (@executable_path/Frameworks, @loader_path/Frameworks, /usr/lib/swift)
 
 ### Quick Start
 #### Swift
