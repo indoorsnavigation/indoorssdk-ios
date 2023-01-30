@@ -4,6 +4,7 @@
 - [Requirements](#requirements)
 - [Installation](#installation)
 - [Usage](#usage)
+- [Troubleshooting](#troubleshooting)
 
 ## Requirements
 
@@ -118,3 +119,11 @@ class MyViewController: UIViewController {
 
 - [Documentation](https://inservice.indoorsnavi.pro/main/docs/chapter/54)
 
+## Troubleshooting
+
+### Problem with building for arm64-ios-simulator
+When building for ios simulator on Apple Silicon, build fails with these errors:
+```Undefined symbol: _OBJC_CLASS_$_INGlobalMapView```, ```Undefined symbol: _OBJC_CLASS_$_INApplication```, ```Undefined symbol: _OBJC_CLASS_$_INCoreConfiguration```, ```Undefined symbol: _OBJC_CLASS_$_INCore```
+
+Solution: 
+Add ```arm64``` to Excluded Architectures for ```Any iOS Sumulator SDK```
