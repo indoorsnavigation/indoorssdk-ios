@@ -12,13 +12,13 @@ let package = Package(
             targets: ["IndoorsSDK"]),
     ],
     dependencies: [
-        
+        .package(url: "https://github.com/maplibre/maplibre-gl-native-distribution", .exactItem("5.13.0"))
     ],
 	targets: [
 		.binaryTarget(
 					name: "IndoorsSDK",
-					url: "https://core.indoorsnavi.pro/artifactory/ios/pro.indoorsnavi/indoorssdk/indoorssdk-3.5.7.zip",
-					checksum: "8757ebc280e4c3dbabfef974ce74283edc2ee03868365ec7f99bffd2a775dfb1"
+					url: "https://core.indoorsnavi.pro/artifactory/ios/pro.indoorsnavi/indoorssdk/indoorssdk-3.5.8.zip",
+					checksum: "8a8dee3216257280dcec4e63f2452f8a0a615313cc89e1ff2114bf4ea5b4ca03"
 				)
 	]
 )
