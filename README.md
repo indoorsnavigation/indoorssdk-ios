@@ -17,13 +17,15 @@
 
 [Swift Package Manager](https://swift.org/package-manager/) is a tool for managing the distribution of Swift code. It’s integrated with the Swift build system to automate the process of downloading, compiling, and linking dependencies.
 
-To integrate IndoorsSDK into your Xcode project using Swift Package Manager, add it to Package dependencies in project settings with this link ```https://github.com/indoorsnavigation/indoorssdk-ios```.
+To integrate IndoorsSDK into your Xcode project using Swift Package Manager, add it to Package dependencies in project settings with this link ```https://github.com/indoorsnavigation/indoorssdk-ios```. 
+
+With our SDK you should install maplibre, also using Swift Package Manager. Pick exact version 5.13.0 when loading from ```https://github.com/maplibre/maplibre-gl-native-distribution```. 
 
 #### Follow these steps
 
-1 | 2 | 3 | 4
---- | --- | --- | ---
-![alt text](https://i.ibb.co/MBGt6Wb/2023-01-23-11-19-53.png "Adding dependecy to project in XCode") | ![alt text](https://i.ibb.co/JRzBXSB/2023-01-23-11-13-54.png "Searching for SDK") | ![alt text](https://i.ibb.co/TKhpS89/2023-01-23-11-20-49.png "") | ![alt text](https://i.ibb.co/QCv9L3r/2023-01-23-11-21-07.png "Final result")
+1 | 2 | 3 | 4 | 5
+--- | --- | --- | --- | ---
+![alt text](https://i.ibb.co/MBGt6Wb/2023-01-23-11-19-53.png "Adding dependecy to project in XCode") | ![alt text](https://i.ibb.co/JRzBXSB/2023-01-23-11-13-54.png "Searching for SDK") | ![alt text](https://i.ibb.co/TKhpS89/2023-01-23-11-20-49.png "") | ![alt text](https://i.ibb.co/QCv9L3r/2023-01-23-11-21-07.png "Need to add maplibre") | ![alt text](https://i.ibb.co/yk1nMkx/maplibre.png "Final result")
 
 ---
 
