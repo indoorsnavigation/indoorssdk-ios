@@ -18,7 +18,7 @@ let package = Package(
 		.binaryTarget(
 					name: "IndoorsSDK",
 					url: "https://core.indoorsnavi.pro/artifactory/ios/pro.indoorsnavi/indoorssdk/indoorssdk-3.5.9.zip",
-					checksum: "ab248814c9edcd089af6b37df7041ea2cbd72800cfb62ec7b460f1ec5fe7acb1"
+					checksum: "551e8def39c26534087e8158cf2b1838a582f44c841419f2e2d58651f08520fb"
 				)
 	]
 )
